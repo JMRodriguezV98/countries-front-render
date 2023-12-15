@@ -1,0 +1,67 @@
+.contentDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-color: var( --color-primary );
+
+}
+
+.contentCardDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(240, 248, 255, 0.082);
+    border-radius: 20px;
+}
+
+.flagContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+}
+
+.flag{
+    width: 80%;
+    height: 100%;
+}
+
+.contentInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var( --color-secondary );
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+    width: 30%;
+}
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.divInfo p{
+    
+    text-transform: uppercase;
+    color: var(--color-quinary);
+}
+
+.divInfo h3{
+    text-transform: uppercase;
+    color: var(--color-secondary);
+}

@@ -1,0 +1,74 @@
+.contentNavbar{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    background-color: var( --color-primary );
+}
+
+.contentLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+#logo{
+    height: 100%;
+}
+
+.contentSections{
+    display: flex;
+    height: 100%;
+    width: 300px;
+    justify-content: space-around;
+    font-family: Helvetica, sans-serif;
+    align-items: center;
+    color: var( --color-tertiary );
+    text-decoration: none;
+}
+
+.contentSearchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    color: var( 
+        --color-tertiary );
+}
+
+.link{
+    text-decoration: none;
+    color: var( --color-tertiary );
+}
+
+label{
+    font-family: Helvetica, sans-serif;
+}
+
+.buttonSearch{
+    height: 30px;
+    width: 80px;
+    border-radius: 0px 10px 10px 0px;
+    border: transparent;
+    color: var( --color-primary );
+    font-size: 13px;
+    font-weight: 700;
+    background-color: var( --color-secondary );
+    cursor: pointer;
+}
+
+input{
+    height: 34px;
+    width: 300px;
+    background-color: var( --color-secondary );
+    font-family: Helvetica, sans-serif;
+    color: var( --color-primary );
+    font-weight: 700;
+    border-radius: 10px 0px 0px 10px;
+    outline: transparent;
+    padding-left: 5px;
+}
